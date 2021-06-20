@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bcef6c5-3a6f-451f-992c-6ad50c4e453a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/actions/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/data/nlu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/nlu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/data/rules.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/rules.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/data/stories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/data/stories.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/endpoints.yml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/endpoints.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/20210507-195303.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/20210513-105631.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/20210514-164457.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/20210515-162307.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/20210518-094941.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/20210518-100558.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/20210518-234852.tar.gz" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tjqKmjv0hdNX1SSCtYWTEOMPaX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bcef6c5-3a6f-451f-992c-6ad50c4e453a" name="Default Changelist" comment="" />
+      <created>1623292787489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623292787489</updated>
+    </task>
+    <servers />
+  </component>
+</project>

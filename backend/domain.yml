@@ -1,0 +1,278 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- Placement:
+    use_entities: true
+- information:
+    use_entities: true
+- benefits
+- laptop
+- extra_classes
+- prequesites
+- concession
+- backlogs
+- cutoff
+- Documentation
+- attempts
+- marks
+- recorded_classes
+- batches
+- mentors
+- Package
+- Fee
+- Duration
+- dress
+- hostel
+- percentage
+- course_structure
+- Non-IT_Background
+- Grading_policy
+- Learning_centers
+- specializations
+- credit_system
+- GAT_syllabus
+- class_strength
+- class_timings
+- first_year_curriculum
+- second_year_curriculum
+- Attendence_percentage 
+- count_of_semesters
+- sem_based_exams
+- pass_percentage
+- utter_saturday
+- utter_leave
+- utter_CIHL
+- utter_mock
+- utter_thankyou
+
+- action_fee
+- package_details
+- affirm_application
+- deny_application
+- utter_package
+- utter_msit
+
+
+entities:
+
+- year
+- institute
+actions:
+- action_package
+- action_fee
+slots: {}
+responses:
+ 
+
+  utter_greet:
+  - text: Hey! I am a bot powered by MSIT. Before asking queries please enter your phone number or your Email-ID, so that we can get back to you. 
+  utter_form:
+  - text: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYVuhKmn4dTkv7ulz7XRWHi6gZaYrdAGKpFXdGX6lg5QI6AA/viewform?embedded=true" width="250" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
+  utter_msg:
+  - text: Please continue with your queries.
+  utter_options:
+  - text: Here are the some of the buttons that might help you. If you need any other information click on other queries and type your query!
+    buttons:
+        - title:  "learning centers"
+          payload: "/utter_learning-centers"
+        - title: "prerequisites" 
+          payload: "/prequesites"
+        - title: "AboutFee"
+          payload: "/Fee"
+        - title: "Non-IT"
+          payload: "/Non-IT_Background"
+        - title: "Hostel"
+          payload: "/hostel"
+        - title: "GAT Syllabus"
+          payload: "/GAT_syllabus"
+        - title: "Semsters" 
+          payload: "/count_of_semesters"
+        - title: "Other Queries"
+          payload: "/specific"
+  utter_cheer_up:
+  - text: "Have a good day!"
+  utter_msit:
+  - text: "MSIT (MS in IT or Masters of Science in Information Technology) is a two-year post-graduate program in Computer Science that started in 2001. MSIT is an innovative multi-university interdisciplinary post-graduate program. MSIT program is being offered by the 'Consortium of Institutions of Higher Learning' (CIHL), formed by the Universities. Under MOU with CMU, some Carnegie Mellon Researchers are providing guidance on the course content. MSIT program offers cutting-edge courses with a unique Learning-by-Doing approach that ensures you are industry-ready when you graduate"
+
+  utter_info:
+  - text: Please go through the link for more information -> <a href='https://www.msitprogram.net/'>click here</a>
+
+  utter_did_that_help:
+  - text: Do you need any further information?
+    buttons:
+        - title: "Yes"
+          payload: "/specific"
+        - title: "No"
+          payload: "/happy"
+    
+
+  utter_happy:
+  - text: Ok. Do you want to fill the application? Click on the preferred button!
+    buttons:
+        - title: "Yes, I would like to fill the application"
+          payload: "/affirm_application"
+        - title: "No, I will do it later" 
+          payload: "/deny_application"
+        - title: "Already Registered"
+          payload: "/Thankyou"
+
+
+  utter_deny_application:
+  - text: Ok. Re-visit the site for more information. You can mail us at enquiries@msitprogram.net for further clarifications. Thank you.
+
+
+  utter_affirm_application:
+  - text: Thank you! Here is the link <a href='https://www.msitprogram.net/'>click here</a>
+
+  utter_prerequisites:
+  - text: Having knowledge on programming is always helpful. Student must be a B.Tech/BE graduate of any stream.
+
+  utter_concession:
+  - text: No concession is provided for merit students. All the students need to pay the same fee.
+
+  utter_specific:
+  - text: please ask your query.
+
+  utter_iamabot:
+  - text: I am a bot, powered by MSIT.
+
+  utter_backlogs:
+  - text: Your backlogs will not affect you in taking the course.
+
+  utter_cutoff:
+  - text: You need to get good score in GAT exam. Cutoff varies every year. 
+
+  utter_Documentation:
+  - text: College will provide you the handbook regarding the course curriculum after joining the course.
+
+  utter_placement:
+  - text: Placements track record for MSITians has been remarkable and near 100% during the previous years.
+
+  utter_goodbye:
+  - text: Before leaving, Do you want to fill the application?
+    buttons:
+        - title: "Yes, I would like to fill the application"
+          payload: "/affirm_application"
+        - title: "No, I will do it later" 
+          payload: "/deny_application"
+        - title: "Already Registered"
+          payload: "/Thankyou"
+
+  utter_thankyou:
+  - text: Thank you!
+
+  utter_package:
+  - text: Packages range from 25 lakhs to 3.5 lakhs per annum.
+
+  utter_marks:
+  - text: Students are graded based on their performance in assignments.
+
+  utter_batches:
+  - text: There may or may not be a shuffling. It varies every year.
+
+  utter_mentors:
+  - text: Each mentor will be guiding approximately 15 students. 4-5 mentors will be there for every course.
+
+  utter_recorded_classes:
+  - text: Mentors will always be there to help you out.
+
+  utter_duration:
+  - text: The duration of total MSIT course is for 2 years. The duration of the subjects depends on the importance of the subject. There are some subjects like Python, java, Data Structure which will be taught for one month. There are some subjects like CNF, database which will be taught in 2 weeks.
+
+  utter_dress:
+  - text: There is no dress code for our college.
+
+  utter_hostel:
+  - text: College hostel is available for both JNTU and IIIT. Students from IIIT should stay in hostel only and they cannot stay outside whereas for JNTU Students it is optional. It is their choice to stay within the hostel or the other.
+
+  utter_percentage:
+  - text: Students need to get 80% to clear the subject. <80% will be considered as fail in required courses. Students need to attempt the remedial sessions to clear the subjects.
+
+  utter_attempts:
+  - text: You can attempt entrance exam only once in a year. Mock test will be conducted before the actual exam.
+ 
+  utter_company:
+  - text: Amazon, Apple India Pvt. Ltd., IBM ISL, Huawei Technologies India Pvt. Ltd., TechMojo, Tata Consultancy Services, Value Momentum, Nutanix Technologies, Johnson Controls, GE Digital, PayTM, MAQ Software, Dupont, F5 Software Solutions, Trade Vigil, Inside View, ZOHO, Saven Technologies, Gramener, CDAC, Semantic Bits,Teradata, Progress, Gathi Analytics, Mathworks, Mutual Mobile,IBM Global Business Services, Host Analytics, MedPlus, HSBC, American Express, GE India, AVI Network, EPAM, Innominds.
+  utter_lappy:
+  - text: "It is always suggestable to have a new laptop with latest processor with 8GB RAM or above."
+
+  utter_benefits:
+  - text: " Yes, this course is very helpfull to gain technical knowledge. There are high chances in getting placed in one of the reputed companies. Nearly 100% of the students gets placement every year. "
+  utter_extra_classes:
+  - text: "Mentors will always be there to help you out in understanding the concepts. Teaching Assistance will also be availiable to provide you help in understanding the concepts from 6PM to 9PM."
+  utter_course:
+    - text: "It is a 2 years course, in the first-year students will learn all the fundamental courses and in the second-year students should opt any specialization in which they are interested."
+  
+  utter_Non_IT:
+  - text: "Any Non-IT student can take this course because we will teach you from the scratch! There will be no special teaching for Non-IT or for IT student. The teaching will be same for every student irrespective of branch."
+ 
+  utter_Grading:
+  - text: "Grading will be based on your performance in vivas and assignment submissions!"
+   
+  utter_learning-centers:
+  - text: "MSIT is currently offered at <br>International Institute of Information Technology (IIIT-H), Hyderabad,<br> School of IT, Jawaharlal Nehru Technological University Hyderabad (JNTUH),<br> College of Engineering, Jawaharlal Nehru Technological University Kakinada (JNTUK),<br> College of Engineering, Jawaharlal Nehru Technological University Anantapur (JNTUA) and Sri Venkateswara University Tirupati (SVU)."
+ 
+  utter_specializations:
+  - text: "Specializations In Computer Networks Domain, E-Business Technologies, Information Security, Software Engineering, Data Science, Machine Learning And Blockchain Technologies."
+  
+  utter_credit_system:
+  - text: "This course has credit system each subject has 4 credits and credits will vary based on the duration of the subject."
+ 
+  utter_GAT:
+  - text: "GAT consists of two main sections, namely, Critical Reading and, Quantitative Ability. The Critical Reading section comprises Reading Comprehension, Analytical and Logical Reasoning. The Quantitative Ability section comprises of Discrete Comparisons (Percentages, Ratios, Profit, and Loss, etc.), Data Analysis (Graphs, Charts, and Tables), Quantitative Comparison (Diagrams, Formulae, Distance, Time, etc.), Sets, Relations and Functions (Venn diagrams, Linear equations, Intersections, etc.)."
+ 
+  utter_class_strength:
+  - text: "MSIT division, International Institute of Information Technology (IIIT): 125 seats, JNTUH: 100 seats. "
+    
+  utter_timings:
+  - text: "Class starts at 9 AM."
+
+  utter_first_year:
+  - text: "In the first-year students will learn all the fundamental courses such as IT-WorkShop, Python, Java, and many more."
+ 
+  utter_second_year:
+  - text: "In the second year students will start their specialization in which they are interested."
+ 
+  utter_Attendence_Percentage:
+  - text: "Students should have minimum of 80% attendance to clear the course."
+ 
+  utter_count_sem:
+  - text: "6 Semesters."
+ 
+  utter_sem_exams:
+  - text: "There will not be any exams for students. They will be graded based on their performance in Assignments and vivas."
+  
+  utter_CIHL:
+  - text: "MSIT program is being offered by “Consortium of Institutions of Higher Learning” (CIHL), formed by the Universities. Under MOU with CMU, some Carnegie Mellon Researchers are providing guidance on the course content."
+  
+  utter_mock:
+  - text: "For mock test and interviews student will be having separate course."
+  
+  utter_leave:
+  - text: "For any type of leave firstly student should take permission from their concerned mentor."  
+  
+  utter_saturday:
+  - text: "Every saturday student will have Competitive Programming test and presentations."
+ 
+
+
+forms: {}
+e2e_actions: []
