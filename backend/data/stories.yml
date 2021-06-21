@@ -76,7 +76,33 @@ stories:
   - intent: affirm
   - action: utter_specific
 
+- story: fee_details
+  steps:
+  - intent: fee_details
+  - action: utter_fee_details
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_specific
 
+- story: fee_details
+  steps:
+  - intent: fee_details
+  - action: utter_fee_details
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_happy
+
+- story: JNTUH
+  steps:
+  - intent: JNTUH
+  - action: utter_jntuh
+
+
+- story: IIITH
+  steps:
+  - intent: IIITH
+  - action: utter_iiith
+ 
 - story: Package
   steps:
   - intent: Package
@@ -84,6 +110,26 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_happy
+
+- story: Package1
+  steps:
+  - intent: Package1
+  - action: action_package1
+
+- story: Package2
+  steps:
+  - intent: Package2
+  - action: action_package2
+
+- story: Package3
+  steps:
+  - intent: Package3
+  - action: action_package3
+
+- story: JNTUK
+  steps:
+  - intent: JNTUK
+  - action: utter_jntuk
 
 
 - story: Package
@@ -164,7 +210,20 @@ stories:
    - action: utter_did_that_help
    - intent: deny
    - action: utter_happy
-
+- story: Fee
+  steps:
+   - intent: Fee
+   - action: utter_Fee
+   - action: utter_did_that_help
+   - intent: affirm
+   - action: utter_specific
+- story: Fee
+  steps:
+   - intent: Fee
+   - action: utter_Fee
+   - action: utter_did_that_help
+   - intent: deny
+   - action: utter_happy
 - story: laptop
   steps:
   - intent: laptop

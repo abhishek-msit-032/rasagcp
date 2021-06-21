@@ -55,6 +55,14 @@ nlu:
 - intent: specific
   examples: |
     - Yes
+    - Other Queries
+
+- intent: fee_details
+  examples: |
+    - fee details
+    - fee
+    - fee structure
+    - what is the fee structure?
 
 - intent: happy
   examples: |
@@ -144,6 +152,10 @@ nlu:
     - what is the highest package in [2019](year)
     - what is the highest package in [2018](year)
 
+
+
+
+
 - intent: package_details
   examples: |
     - what is the basic package at MSIT
@@ -157,7 +169,8 @@ nlu:
     - what is the fee structure at [JNTUK](institute)
     - what is the fee structure at [SVU](institute)
     - fee details
-    
+    - AboutFee
+ 
     
 - intent: affirm_application
   examples: |
@@ -202,6 +215,7 @@ nlu:
     - Are there any prerequisites languages that we need to learn before joining the course?
     - what are the prerequisites to join the course?
     - prerequesites
+    - prerequisites
 - intent: concession
   examples: |
     - Do merit students get any concession?
@@ -257,6 +271,7 @@ nlu:
     - Can students stay out of campus hostels?
     - hostel details?
     - do students get hostel facility?
+    - Hostel
 - intent: percentage
   examples: |
     - For each course how many credits do we need to score?
@@ -279,6 +294,7 @@ nlu:
     - I am from Chemical from background. Can I get on in this course?
     - I am from EIE from background. Can I get on in this course?
     - I am from Petroleum Engineering from background. Can I get on in this course?
+    - Non-IT
     
 
 - intent: Grading_policy
@@ -288,6 +304,7 @@ nlu:
 
 - intent: Learning_centers
   examples: |
+    - learning centers
     - What are the different learning centers?
     - In which Universities is this course available
     - which Universities offers this course?
@@ -303,6 +320,7 @@ nlu:
 - intent: GAT_syllabus
   examples: |
     - What is the syllabus for the GAT?
+    - GAT Syllabus
 
 - intent: class_strength
   examples: |
@@ -327,6 +345,7 @@ nlu:
 - intent: count_of_semesters
   examples: |
     - How many semesters do we have?
+    - Semesters
 
 - intent: sem_based_exams
   examples: |
@@ -348,8 +367,47 @@ nlu:
   examples: |
     - do we have classes on saturday?
 
+- intent: Package1
+  examples: |
+    - what is the highest package in 2020
+    
+- intent: Package2
+  examples: |
+    - what is the highest package in 2019
+- intent: Package3
+  examples: |
+    - what is the highest package in 2018
 
-
+- intent: JNTUH
+  examples: |
+    - what is the fee structure at JNTUH
+    - what is the fee structure at jntuh
+    - fee structure at JNTUH
+    - fee structure at jntuh
+    - jntuh
+    - JNTUH  
+- intent: IIITH
+  examples: |
+    - what is the fee structure at IIITH
+    - what is the fee structure at iiith
+    - fee structure at iiith
+    - fee structure at IIITH
+    - iiith
+    - IIITH 
+- intent: JNTUK
+  examples: |
+    - what is the fee structure at JNTUK
+    - what is the fee structure at jntuk
+    - fee structure at JNTUH
+    - fee structure at jntuk
+    - jntuk
+    - JNTUH
+    - what is the fee structure at SVU
+    - what is the fee structure at svu
+    - fee structure at SVU
+    - fee structure at svu
+    - svu
+    - SVU   
 
 
 

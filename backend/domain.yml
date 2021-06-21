@@ -62,13 +62,19 @@ intents:
 - utter_CIHL
 - utter_mock
 - utter_thankyou
-
+- utter_jntuh
+- utter_jntuk
+- utter_iiith
 - action_fee
 - package_details
 - affirm_application
 - deny_application
 - utter_package
 - utter_msit
+- action_package1
+- action_package2
+- action_package3
+
 
 
 entities:
@@ -103,12 +109,14 @@ responses:
           payload: "/hostel"
         - title: "GAT Syllabus"
           payload: "/GAT_syllabus"
-        - title: "Semsters" 
+        - title: "Semesters" 
           payload: "/count_of_semesters"
         - title: "Other Queries"
           payload: "/specific"
   utter_cheer_up:
   - text: "Have a good day!"
+  utter_Fee:
+  - text: "Fee at JNTUH is 170000, Fee at IITH is 200000, Fee at SVU is 130000."
   utter_msit:
   - text: "MSIT (MS in IT or Masters of Science in Information Technology) is a two-year post-graduate program in Computer Science that started in 2001. MSIT is an innovative multi-university interdisciplinary post-graduate program. MSIT program is being offered by the 'Consortium of Institutions of Higher Learning' (CIHL), formed by the Universities. Under MOU with CMU, some Carnegie Mellon Researchers are providing guidance on the course content. MSIT program offers cutting-edge courses with a unique Learning-by-Doing approach that ensures you are industry-ready when you graduate"
 
@@ -123,7 +131,20 @@ responses:
         - title: "No"
           payload: "/happy"
     
-
+  utter_fee_details:
+  - text: Fee at JNTUH is 170000, Fee at IIITH is 200000, Fee at SVU is 130000.
+  utter_jntuh:
+  - text: Fee at JNTUH is 170000.
+  utter_iiith:
+  - text: Fee at IIITH is 200000.
+  utter_jntuk:
+  - text: Fee at JNTUH is 130000, Fee at SVU is 130000.
+  action_package1:
+  - text: highest package is 24L <a href='https://www.msitprogram.net/'>For more info click here</a>.
+  action_package2:
+  - text: highest package is 22L.
+  action_package3:
+  - text: highest package is 20L.
   utter_happy:
   - text: Ok. Do you want to fill the application? Click on the preferred button!
     buttons:
@@ -228,7 +249,7 @@ responses:
   - text: "Grading will be based on your performance in vivas and assignment submissions!"
    
   utter_learning-centers:
-  - text: "MSIT is currently offered at <br>International Institute of Information Technology (IIIT-H), Hyderabad,<br> School of IT, Jawaharlal Nehru Technological University Hyderabad (JNTUH),<br> College of Engineering, Jawaharlal Nehru Technological University Kakinada (JNTUK),<br> College of Engineering, Jawaharlal Nehru Technological University Anantapur (JNTUA) and Sri Venkateswara University Tirupati (SVU)."
+  - text: "MSIT is currently offered at International Institute of Information Technology (IIIT-H), Hyderabad, School of IT, Jawaharlal Nehru Technological University Hyderabad (JNTUH), College of Engineering, Jawaharlal Nehru Technological University Kakinada (JNTUK), College of Engineering, Jawaharlal Nehru Technological University Anantapur (JNTUA) and Sri Venkateswara University Tirupati (SVU)."
  
   utter_specializations:
   - text: "Specializations In Computer Networks Domain, E-Business Technologies, Information Security, Software Engineering, Data Science, Machine Learning And Blockchain Technologies."
