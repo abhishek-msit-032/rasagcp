@@ -65,10 +65,10 @@ action_endpoint:
 #     username:  "root" # username used for authentication
 #     password:  "bhanu9294" # password used for authentication
 
-tracker_store:
-    type: SQL
-    dialect: "postgresql"  # the dialect used to interact with the db
-    url: "34.93.74.160"
-    db: "postgres"  # path to your db
-    username: "postgres"  # username used for authentication
-    password: "msit123" # password used for authentication
+# tracker_store:
+#     type: SQL
+#     dialect: "postgresql"  # the dialect used to interact with the db
+#     url: "34.93.74.160"
+#     db: "postgres"  # path to your db
+#     username: "postgres"  # username used for authentication
+#     password: "msit123" # password used for authentication
