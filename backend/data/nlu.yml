@@ -168,8 +168,16 @@ nlu:
     - what is the fee structure at [IIIT](institute)
     - what is the fee structure at [JNTUK](institute)
     - what is the fee structure at [SVU](institute)
+
+- intent: fee_details
+  examples: |
+    - Fee details
     - fee details
-    - AboutFee
+    - fee
+    - About Fee
+    - fee structure
+    - what is the fee structure?
+
  
     
 - intent: affirm_application
@@ -214,7 +222,6 @@ nlu:
   examples: |
     - Are there any prerequisites languages that we need to learn before joining the course?
     - what are the prerequisites to join the course?
-    - prerequesites
     - prerequisites
 - intent: concession
   examples: |
@@ -304,7 +311,7 @@ nlu:
 
 - intent: Learning_centers
   examples: |
-    - learning centers
+    - Learning centers
     - What are the different learning centers?
     - In which Universities is this course available
     - which Universities offers this course?

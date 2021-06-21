@@ -160,20 +160,21 @@ stories:
   - intent: deny
   - action: utter_happy
 
-- story: Fee
-  steps: 
-  - intent: Fee
-  - action: action_fee
+
+- story: fee_details
+  steps:
+  - intent: fee_details
+  - action: utter_fee_details
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_specific
   
+  
 
-
-- story: Fee
-  steps: 
-  - intent: Fee
-  - action: action_fee
+- story: fee_details
+  steps:
+  - intent: fee_details
+  - action: utter_fee_details
   - action: utter_did_that_help
   - intent: deny
   - action: utter_happy
@@ -210,20 +211,7 @@ stories:
    - action: utter_did_that_help
    - intent: deny
    - action: utter_happy
-- story: Fee
-  steps:
-   - intent: Fee
-   - action: utter_Fee
-   - action: utter_did_that_help
-   - intent: affirm
-   - action: utter_specific
-- story: Fee
-  steps:
-   - intent: Fee
-   - action: utter_Fee
-   - action: utter_did_that_help
-   - intent: deny
-   - action: utter_happy
+
 - story: laptop
   steps:
   - intent: laptop

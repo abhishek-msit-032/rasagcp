@@ -74,6 +74,8 @@ intents:
 - action_package1
 - action_package2
 - action_package3
+- utter_fee_details
+- utter_msg
 
 
 
@@ -97,12 +99,12 @@ responses:
   utter_options:
   - text: Here are the some of the buttons that might help you. If you need any other information click on other queries and type your query!
     buttons:
-        - title:  "learning centers"
-          payload: "/utter_learning-centers"
+        - title:  "Learning centers"
+          payload: "/Learning_centers"
         - title: "prerequisites" 
-          payload: "/prequesites"
-        - title: "AboutFee"
-          payload: "/Fee"
+          payload: "/prerequisites"
+        - title: "Fee details"
+          payload: "/fee_details"
         - title: "Non-IT"
           payload: "/Non-IT_Background"
         - title: "Hostel"
@@ -115,8 +117,9 @@ responses:
           payload: "/specific"
   utter_cheer_up:
   - text: "Have a good day!"
-  utter_Fee:
-  - text: "Fee at JNTUH is 170000, Fee at IITH is 200000, Fee at SVU is 130000."
+  utter_fee_details:
+  - text: Fee at JNTUH is 170000, Fee at IITH is 200000, Fee at SVU is 130000.
+
   utter_msit:
   - text: "MSIT (MS in IT or Masters of Science in Information Technology) is a two-year post-graduate program in Computer Science that started in 2001. MSIT is an innovative multi-university interdisciplinary post-graduate program. MSIT program is being offered by the 'Consortium of Institutions of Higher Learning' (CIHL), formed by the Universities. Under MOU with CMU, some Carnegie Mellon Researchers are providing guidance on the course content. MSIT program offers cutting-edge courses with a unique Learning-by-Doing approach that ensures you are industry-ready when you graduate"
 
@@ -131,8 +134,7 @@ responses:
         - title: "No"
           payload: "/happy"
     
-  utter_fee_details:
-  - text: Fee at JNTUH is 170000, Fee at IIITH is 200000, Fee at SVU is 130000.
+
   utter_jntuh:
   - text: Fee at JNTUH is 170000.
   utter_iiith:
