@@ -76,7 +76,7 @@ intents:
 - action_package3
 - utter_fee_details
 - utter_msg
-
+- utter_options
 
 
 entities:
