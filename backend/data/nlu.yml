@@ -343,8 +343,6 @@ nlu:
 - intent: leave
   examples: |
     - how to apply for leave?
-
-
     
 - intent: sat_class
   examples: |
