@@ -374,16 +374,19 @@ nlu:
   examples: |
     - do we have classes on saturday?
 
-- intent: Package1
+- intent: highest_2020
   examples: |
     - what is the highest package in 2020
+    - highest package in 2020
     
-- intent: Package2
+- intent: highest_2019
   examples: |
     - what is the highest package in 2019
-- intent: Package3
+    - highest package in 2019
+- intent: highest_2018
   examples: |
     - what is the highest package in 2018
+    - highest package in 2018
 
 - intent: JNTUH
   examples: |

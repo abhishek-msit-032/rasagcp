@@ -71,12 +71,13 @@ intents:
 - deny_application
 - utter_package
 - utter_msit
-- action_package1
-- action_package2
-- action_package3
+- utter_2020
+- utter_2019
+- utter_2018
 - utter_fee_details
 - utter_msg
 - utter_options
+
 
 
 entities:
@@ -141,12 +142,12 @@ responses:
   - text: Fee at IIITH is 200000.
   utter_jntuk:
   - text: Fee at JNTUH is 130000, Fee at SVU is 130000.
-  action_package1:
-  - text: highest package is 24L <a href='https://www.msitprogram.net/'>For more info click here</a>.
-  action_package2:
-  - text: highest package is 22L.
-  action_package3:
-  - text: highest package is 20L.
+  utter_2020:
+  - text: highest package is in 2020 is 24L <a href='https://www.msitprogram.net/'>For more info click here</a>.
+  utter_2019:
+  - text: highest package in 2019 is is 22L.
+  utter_2018:
+  - text: highest package in 2018 is 20L.
   utter_happy:
   - text: Ok. Do you want to fill the application? Click on the preferred button!
     buttons:

@@ -14,11 +14,14 @@ code {
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: #b47474;
+  /* background-color: #4684aa; */
   position: fixed;
   bottom: 0;
   
   left: 0px;
   width: 100%;
   text-align: center;
+}
+.line{
+  color: black;
 }

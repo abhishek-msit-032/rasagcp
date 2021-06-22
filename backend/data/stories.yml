@@ -111,21 +111,20 @@ stories:
   - intent: deny
   - action: utter_happy
 
-- story: Package1
+- story: highest_2020
   steps:
-  - intent: Package1
-  - action: action_package1
+  - intent: highest_2020
+  - action: utter_2020
 
-- story: Package2
+- story: highest_2019
   steps:
-  - intent: Package2
-  - action: action_package2
+  - intent: highest_2019
+  - action: utter_2019
 
-- story: Package3
+- story: highest_2018
   steps:
-  - intent: Package3
-  - action: action_package3
-
+  - intent: highest_2018
+  - action: utter_2018
 - story: JNTUK
   steps:
   - intent: JNTUK
