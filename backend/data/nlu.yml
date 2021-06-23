@@ -79,10 +79,6 @@ nlu:
     - saisricharan@msitprogram.net
     - saisricharan@yahoo.com
 
-    
-   
-
-
 - intent: Thankyou
   examples: |
     - Already Registered
@@ -146,21 +142,17 @@ nlu:
     - previous years placement details?
     - can you tell me something about your placements
     - can you tell me something about your placement?
+
 - intent: Package
   examples: |
     - what is the highest package in [2020](year)
     - what is the highest package in [2019](year)
     - what is the highest package in [2018](year)
 
-
-
-
-
 - intent: package_details
   examples: |
     - what is the basic package at MSIT
     - package details
-  
     
 - intent: Fee
   examples: |
@@ -177,8 +169,6 @@ nlu:
     - About Fee
     - fee structure
     - what is the fee structure?
-
- 
     
 - intent: affirm_application
   examples: |
@@ -203,6 +193,7 @@ nlu:
   examples: |
     - I want to know more information
     - can you provide more information
+
 - intent: laptop
   examples: |
    - is it necessary to buy a new laptop?
@@ -214,15 +205,18 @@ nlu:
     - is this really a good course?
     - is this a useful course?
     - what are the benefits of this course?
+
 - intent: extra_classes
   examples: |
     - Any extra classes are provided if the students are not able to understand?
     - will there be any extra classes for the studets who do not understand few concepts?
+
 - intent: prerequisites
   examples: |
     - Are there any prerequisites languages that we need to learn before joining the course?
     - what are the prerequisites to join the course?
     - prerequisites
+
 - intent: concession
   examples: |
     - Do merit students get any concession?
@@ -233,10 +227,12 @@ nlu:
     - Will our backlogs affect our joining the college?
     - How does our backlogs affect us in joining the course?
     - What if we have backlogs?
+
 - intent: cutoff
   examples: |
     - Is there any cutoff percentage for the college to join the course?
     - what is the cutoff in GAT exam to join the course?
+
 - intent: Documentation
   examples: |
     - Will the faculty provide any documentation for the course?
@@ -245,6 +241,7 @@ nlu:
 - intent: attempts
   examples: |
     - How many times can we attend the entrance exam?
+
 - intent: marks
   examples: |
     - On what basis students will get marks?
@@ -265,6 +262,7 @@ nlu:
     - Will all the students have one mentor?
     - For each course how many faculty members will be available?
     - what about mentors?
+
 - intent: Duration
   examples: |
     - What is the duration of each course?
@@ -273,16 +271,20 @@ nlu:
 - intent: dress
   examples: |
     - Is there any dress code for college?
+    - dress code
+
 - intent: hostel
   examples: |
     - Can students stay out of campus hostels?
     - hostel details?
     - do students get hostel facility?
     - Hostel
+
 - intent: percentage
   examples: |
     - For each course how many credits do we need to score?
     - what is the pass percentage?
+
 - intent: course_structure
   examples: |
     - what is the course structure?
@@ -302,7 +304,6 @@ nlu:
     - I am from EIE from background. Can I get on in this course?
     - I am from Petroleum Engineering from background. Can I get on in this course?
     - Non-IT
-    
 
 - intent: Grading_policy
   examples: |
@@ -319,6 +320,7 @@ nlu:
 - intent: specializations
   examples: |
     - What are the different specializations offered in the course?
+    - Specializations
 
 - intent: credit_system
   examples: |
@@ -328,26 +330,35 @@ nlu:
   examples: |
     - What is the syllabus for the GAT?
     - GAT Syllabus
+    - gat syllabus
 
 - intent: class_strength
   examples: |
     - The total strength of a classes?
+    - number of seats in msit
+    - number of seats in MSIT
 
 - intent: class_timings
   examples: |
     - What are the class timings?
+    - class timings
 
 - intent: first_year_curriculum
   examples: |
     - First-year curriculum?
+    - first year curriculum
+    - first year content
 
 - intent: second_year_curriculum
   examples: |
     - Second-year curriculum?
+    - second year curriculum
+    - second year content
 
 - intent: Attendence_percentage 
   examples: |
     - What should be the attendance percentage?
+    - attendance percentage
 
 - intent: count_of_semesters
   examples: |
@@ -357,18 +368,21 @@ nlu:
 - intent: sem_based_exams
   examples: |
     - Does msit have any sem-based exams?
-
+    - sem based exam
 - intent: CIHL
   examples: |
     - what is meant by CIHL?
-
+    - cihl
+    - what is cihl
+    
 - intent: mock_test
   examples: |
-    - do we have any mock tests or any interviews?
+    - do we have any mock tests or any interviews before facing interviews?
 
 - intent: leave
   examples: |
     - how to apply for leave?
+    - how can i apply for leave
     
 - intent: sat_class
   examples: |
@@ -383,6 +397,7 @@ nlu:
   examples: |
     - what is the highest package in 2019
     - highest package in 2019
+
 - intent: highest_2018
   examples: |
     - what is the highest package in 2018
